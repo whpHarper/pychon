@@ -28,6 +28,6 @@ def fib(max):
         a,b,a1,b1=b,a+b,a,b
         print('a1=='+str(a1)+" b1=="+str(b1))
         n+=1
-    return 'done'
+
 for i in fib(6):
     print(i)
