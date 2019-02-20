@@ -6,11 +6,11 @@ from mySpider.items import ItcastItem
 
 # 创建一个爬虫类
 class ItcastSpider(scrapy.Spider):
-    # 爬虫名
+    # 1.定义爬虫名
     name = "itcast"
-    # 允许爬虫作用的范围
+    # 2. 允许爬虫作用的范围
     allowd_domains = ["http://www.itcast.cn/"]
-    # 爬虫其实的url
+    # 3. 爬虫其实的url
     start_urls = [
         "http://www.itcast.cn/channel/teacher.shtml#aandroid",
         "http://www.itcast.cn/channel/teacher.shtml#ac",
